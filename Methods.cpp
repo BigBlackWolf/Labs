@@ -1,0 +1,43 @@
+#include "Header.h"
+
+Snakes::Snakes(){
+	 cout<<"Enter name of your snake: \n";
+	 cin >>name;
+	 cout<<"Enter color of your snake: \n";
+	 cin >>color;
+	 cout<<"Enter length of your snake: \n";
+	 cin >>length;
+}
+
+Snakes::Snakes(string a, string b, float c) {
+	name = a;
+	color = b;
+	length = c;
+}
+
+void Snakes::getSnake() {
+	cout << "Name: " << name << endl;
+	cout << "Color: " << color << endl;
+	cout << "Length: " << length << endl;
+}
+
+void Snakes::changeName() {
+  cout << "New name: \n";
+  cin >> name;
+}
+
+void Snakes::changeColor() {
+  cout << "New color: \n";
+  cin >> color;
+}
+
+void Snakes::changeLength() {
+  cout << "New length: \n";
+  cin >> length;
+}
+
+void Anakonda::Bite() {
+	cout<<"Your snake bites someone!";
+}
+
+
