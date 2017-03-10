@@ -6,8 +6,5 @@ int main () {
    Snakes a("Sasha","green",12.5);
    a.getSnake();
    a.changeName();
-   Anakonda* first;
-   first = new Anakonda;
-   first->Anakonda();
    return 0;
 }

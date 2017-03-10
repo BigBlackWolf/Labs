@@ -18,12 +18,10 @@ public:
   void changeLength();
 };
 
-class Anakonda : public Snakes {
+class Anakonda : private Snakes {
 public:
-  void Bite();
-  Anakonda();
-  ~Anakonda();
+ void Bite();
 private:
-  int population;
-  int *snake = new int[population];
+  int danger_rank;
+  int spots;
 };

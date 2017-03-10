@@ -36,20 +36,6 @@ void Snakes::changeLength() {
   cin >> length;
 }
 
-Anakonda::Anakonda() {
-	cout << "Population of Anakondas is: /n";
-	cin>> population;
-	int i=0;
-	while (i<population) {
-		cin >> snake[i];
-		i++;
-	}
-}
-
-Anakonda::~Anakonda() {
-	delete[] snake;
-}
-
 void Anakonda::Bite() {
 	cout<<"Your snake bites someone!";
 }
