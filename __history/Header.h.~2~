@@ -5,11 +5,11 @@
 using namespace std;
 
 class Snakes {
- protected:
+protected:
   float length;
   string color;
   string name;
- public:
+public:
   Snakes(string a, string b, float c);
   Snakes();
   void getSnake();
@@ -19,11 +19,11 @@ class Snakes {
 };
 
 class Anakonda : public Snakes {
- public:
+public:
   void Bite();
   Anakonda();
   ~Anakonda();
- private:
+private:
   int population;
   int *snake = new int[population];
 };
